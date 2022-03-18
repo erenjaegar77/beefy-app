@@ -12,6 +12,7 @@ const styles = theme => ({
     color: theme.palette.text.primary,
     fontSize: '16px',
     fontWeight: '700',
+    marginBottom: '12px',
   },
   text: {
     color: theme.palette.text.primary,
@@ -28,9 +29,8 @@ const styles = theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: '6px 12px',
+    padding: '12px 32px',
     [theme.breakpoints.down('md')]: {
-      padding: '12px 24px',
       marginTop: '24px',
       width: '100%',
     },
