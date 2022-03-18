@@ -12,7 +12,6 @@ const styles = theme => ({
     color: theme.palette.text.primary,
     fontSize: '16px',
     fontWeight: '700',
-    marginBottom: '12px',
   },
   text: {
     color: theme.palette.text.primary,
@@ -24,6 +23,8 @@ const styles = theme => ({
     backgroundColor: theme.palette.text.primary,
     fontWeight: '700',
     borderRadius: '4px',
+    fontSize: '14px',
+    lineHeight: '20px',
     textTransform: 'none',
     color: theme.palette.text.flipped,
     display: 'flex',
