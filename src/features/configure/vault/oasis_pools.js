@@ -1,4 +1,4 @@
-export const emeraldPools = [
+export const oasisPools = [
   {
     id: 'yuzu-ceusdc-yuzu',
     name: 'ceUSDC-YUZU LP',

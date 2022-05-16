@@ -63,10 +63,10 @@ import {
   moonbeamStakePools,
   moonbeamAddressBook,
   moonbeamZaps,
-  emeraldPools,
-  emeraldStakePools,
+  oasisPools,
+  oasisStakePools,
   emeraldAddressBook,
-  emeraldZaps,
+  oasisZaps,
 } from '../configure';
 
 export const appNetworkId = window.REACT_APP_NETWORK_ID;
@@ -164,7 +164,7 @@ export const getNetworkPools = () => {
     case 1284:
       return moonbeamPools;
     case 42262:
-      return emeraldPools;
+      return oasisPools;
     default:
       return [];
   }
@@ -201,7 +201,7 @@ export const getNetworkVaults = (networkId = appNetworkId) => {
     case 1284:
       return indexBy(moonbeamPools, 'id');
     case 42262:
-      return indexBy(emeraldPools, 'id');
+      return indexBy(oasisPools, 'id');
     default:
       return {};
   }
@@ -238,7 +238,7 @@ export const getNetworkLaunchpools = (networkId = appNetworkId) => {
     case 1284:
       return indexBy(moonbeamStakePools, 'id');
     case 42262:
-      return indexBy(emeraldStakePools, 'id');
+      return indexBy(oasisStakePools, 'id');
     default:
       return {};
   }
@@ -368,7 +368,7 @@ export const getNetworkZaps = () => {
     case 1284:
       return moonbeamZaps;
     case 42262:
-      return emeraldZaps;
+      return oasisZaps;
     default:
       return [];
   }
@@ -1315,7 +1315,7 @@ export const getNetworkConnectors = t => {
       };
     case 42262:
       return {
-        network: 'emerald',
+        network: 'oasis',
         cacheProvider: true,
         providerOptions: {
           injected: {

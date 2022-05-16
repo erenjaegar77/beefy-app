@@ -17,6 +17,7 @@ const {
   moonbeam: moonbeamAddressBook,
   emerald: emeraldAddressBook,
 } = addressBook;
+
 export {
   bscAddressBook,
   hecoAddressBook,
@@ -61,7 +62,7 @@ export { auroraStakePools } from './stake/aurora_stake';
 export { fuseStakePools } from './stake/fuse_stake';
 export { metisStakePools } from './stake/metis_stake';
 export { moonbeamStakePools } from './stake/moonbeam_stake';
-export { emeraldStakePools } from './stake/emerald_stake';
+export { oasisStakePools } from './stake/oasis_stake';
 export { bscPools } from './vault/bsc_pools';
 export { hecoPools } from './vault/heco_pools';
 export { avalanchePools } from './vault/avalanche_pools';
@@ -76,7 +77,7 @@ export { auroraPools } from './vault/aurora_pools';
 export { fusePools } from './vault/fuse_pools';
 export { metisPools } from './vault/metis_pools';
 export { moonbeamPools } from './vault/moonbeam_pools';
-export { emeraldPools } from './vault/emerald_pools';
+export { oasisPools } from './vault/oasis_pools';
 export { bscZaps } from './zap/bsc_zaps';
 export { hecoZaps } from './zap/heco_zaps';
 export { avalancheZaps } from './zap/avalanche_zaps';
@@ -91,5 +92,5 @@ export { auroraZaps } from './zap/aurora_zaps';
 export { fuseZaps } from './zap/fuse_zaps';
 export { metisZaps } from './zap/metis_zaps';
 export { moonbeamZaps } from './zap/moonbeam_zaps';
-export { emeraldZaps } from './zap/emerald_zaps';
+export { oasisZaps } from './zap/oasis_zaps';
 export { nativeCoins } from './native_coins';

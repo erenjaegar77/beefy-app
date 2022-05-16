@@ -1,4 +1,4 @@
-export const emeraldZaps = [
+export const oasisZaps = [
   {
     // YuzuSwap
     zapAddress: '0xa1Dfd44c90B7cE937FC450Fe19B691e72EE3a7D2',
