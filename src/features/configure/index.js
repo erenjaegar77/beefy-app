@@ -15,7 +15,7 @@ const {
   fuse: fuseAddressBook,
   metis: metisAddressBook,
   moonbeam: moonbeamAddressBook,
-  emerald: emeraldAddressBook,
+  oasis: oasisAddressBook,
 } = addressBook;
 
 export {
@@ -33,7 +33,7 @@ export {
   fuseAddressBook,
   metisAddressBook,
   moonbeamAddressBook,
-  emeraldAddressBook,
+  oasisAddressBook,
 };
 
 export {

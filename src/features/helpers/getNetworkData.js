@@ -65,7 +65,7 @@ import {
   moonbeamZaps,
   oasisPools,
   oasisStakePools,
-  emeraldAddressBook,
+  oasisAddressBook,
   oasisZaps,
 } from '../configure';
 
@@ -276,7 +276,7 @@ export const getNetworkTokens = () => {
     case 1284:
       return moonbeamAddressBook.tokens;
     case 42262:
-      return emeraldAddressBook.tokens;
+      return oasisAddressBook.tokens;
     default:
       throw new Error(
         `Create address book for chainId(${chainId}) first. Check out https://github.com/beefyfinance/address-book`
